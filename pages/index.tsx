@@ -11,8 +11,10 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to JB's <a href="https://nextjs.org">Next.js site, hosted on Vercel</a>
+          Welcome to JB's <a href="https://nextjs.org">Next.js site</a>, hosted on Vercel
         </h1>
+        <p>Which is now in TypeScript</p>
+        <p>Never goes bass to mouth</p>
 
         <p className={styles.description}>
           Get started by editing{' '}
