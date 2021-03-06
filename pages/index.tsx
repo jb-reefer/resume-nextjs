@@ -34,7 +34,7 @@ export default function Home() {
       <br />
       <Education />
       <StyledForkMe>
-        <GithubButton link="https://github.com/jb-reefer/resume-nextjs" /> source for this site :)
+        This site is built in React on Next.js, and hosted by Vercel. Source for this site: <GithubButton link="https://github.com/jb-reefer/resume-nextjs" />
       </StyledForkMe>
     </StyledContainer>
   )
