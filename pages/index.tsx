@@ -1,7 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
 import { Education } from '../components/Education'
-import { Entry } from '../components/Entries'
 import { ExperienceBlock } from '../components/ExperienceBlock'
 import { GithubButton } from '../components/GithubButton'
 import { Hero } from '../components/Hero'
