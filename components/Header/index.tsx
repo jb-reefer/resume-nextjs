@@ -1,5 +1,5 @@
 import * as React from "react";
-import "./Header.css";
+import styled from "styled-components";
 
 export interface IDuration {
   from: string;
@@ -13,15 +13,37 @@ export interface IHeader {
   role: string;
 }
 
+const StyledHeader = styled.div`
+.Header {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.Role {
+  font-weight: 900;
+}
+
+@media (max-width: 450px) {
+  .Subheader {
+    font-size: 13pt;
+  }
+
+  .Role {
+    font-style: normal;
+  }
+}`;
+
 export const Header = (props: IHeader & IDuration) => (
-  <div>
+  <StyledHeader>
     <div className="Role">{props.role}</div>
     <div className="Header">
       <div className="Subheader"><a href={props.website} target="_blank">{props.company}</a></div>
       <Duration to={props.to} from={props.from} />
     </div>
     <div className="Subheader">{props.city}</div>
-  </div>
+  </StyledHeader>
 );
 
 export const Duration = (props: IDuration) => (

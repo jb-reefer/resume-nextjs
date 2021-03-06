@@ -1,9 +1,24 @@
 import React from "react";
+import styled from "styled-components";
 import { GithubButton } from "../GithubButton";
-import "./Hero.css";
+
+const StyledHero = styled.address`
+display: flex;
+flex-direction: column;
+text-align: center;
+font-style: normal;
+
+h1 {
+  margin: 0;
+}
+
+.Contacts > * {
+  padding: 1rem;
+}
+`;
 
 export const Hero = (props: any) => (
-  <address className="Hero">
+  <StyledHero>
     <h1 title="Really it's James Brooks Gardner Reefer but this is so much simpler">J.B. Reefer</h1>
     <div>New York, NY 10128</div>
     <div>(573) 308-2658</div>
@@ -11,5 +26,5 @@ export const Hero = (props: any) => (
       <GithubButton link="https://github.com/jb-reefer" />
       <a href="mailto:james.reefer@gmail.com?subject=Let's be friends!">Email</a>
     </div>
-  </address>
+  </StyledHero>
 );
