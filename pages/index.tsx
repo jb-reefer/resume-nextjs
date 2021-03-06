@@ -1,4 +1,3 @@
-import Head from 'next/head'
 import React from 'react'
 import styled from 'styled-components'
 import { Education } from '../components/Education'
@@ -34,7 +33,7 @@ export default function Home() {
       <br />
       {data.map((job) => (
         <ExperienceBlock {...job}>
-          {job.children.map((entry) => <Entry>{entry}</Entry>)}
+          {job.children.map((entry) => <Entry key={JSON.stringify(entry)}>{entry}</Entry>)}
         </ExperienceBlock>
       ))}
       <br />
