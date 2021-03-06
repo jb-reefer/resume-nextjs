@@ -10,12 +10,13 @@ const data: IExperienceBlock[] = [
   to: "Present",
   bulletPoints: [
     "Lead the team responsible for the Capsule website, as well as the iOS and Android apps",
-    "Led 2 teams totalling 13 direct reports, but in order to pivot to help grow the new Test Eng team, currently lead a team of 6, called Retention",
+    "Led 2 teams totalling 13 direct reports, but in order to pivot to help grow the new Test Eng team, currently lead a team of 6 direct reports, called Retention",
     "Managed the TypeScript migration of all user-facing Capsule IPs",
     "Built the CI/CD and Test pipeline in Jenkins using Cypress",
     "Built and architected 3 generations of deployment and scaling systems",
     "Led the effort to build the Capsule order status/courier tracking system",
-    "Work closely with upper management and talent acquisition to grow the team"
+    "Work closely with upper management and talent acquisition to grow the team",
+    "Collaborated on D&I pipelines from the Customer Experience teams to Product and Engineering",
   ]
 },
 {
@@ -26,11 +27,11 @@ const data: IExperienceBlock[] = [
   from: "August 2018",
   to: "March 2019",
   bulletPoints: [
-    "Build an agentive system that schedules meetings using AI/ML over email and a web UI",
-    "Migrate existing services to Typescript-based microservices",
-    "Write React email templates and added ability for clients to take action directly from emails instead of requiring natural-language responses, cutting down on spend and chatter",
+    "Built an agentive system that schedules meetings using AI/ML over email and a web UI",
+    "Migrated existing services to Typescript-based microservices",
+    "Wrote React email templates and added ability for clients to take action directly from emails instead of requiring natural-language responses, cutting down on spend and chatter",
     "Moved from a git-stored dependency system to a modern, npm ci and private npm repo based paradigm",
-    "Work on all areas of the system such as writing web experiences, build and test APIs, modifying deployment systems and architecting new systems",
+    "Worked on all areas of the system such as writing web experiences, build and test APIs, modifying deployment systems and architecting new systems",
   ],
 },
 {
@@ -46,7 +47,7 @@ const data: IExperienceBlock[] = [
     "Reduced build time from 7 minutes to 12 seconds by rebuilding build process with Webpack and Babel",
     "Created new user interface components like pie charts, data masking, and action buttons",
     "Rebuilt Bamboo CI/CD pipeline, streamlined merge -> build -> release -> deployment process",
-    "Created reproducible builds with Yarn and a new set of team version management rules",
+    "Created reproducible builds with Yarn",
     "Worked with clients and internal stakeholders to create roadmaps, groom feature set, and change our development cycles to better meet their needs",
     "Made user interface client-customizable, eliminating the need for separate per-client builds and allowing developers to do development instead of operations",
   ],
