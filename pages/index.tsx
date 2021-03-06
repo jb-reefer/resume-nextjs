@@ -29,9 +29,7 @@ export default function Home() {
       <Hero />
       <br />
       {data.map((job) => (
-        <ExperienceBlock {...job}>
-          {job.bulletPoints.map((bulletPoint) => <Entry>{bulletPoint}</Entry>)}
-        </ExperienceBlock>
+        <ExperienceBlock {...job} />
       ))}
       <br />
       <Education />

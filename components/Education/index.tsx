@@ -13,7 +13,7 @@ export const Education = (props: any) => (
     <div className="Institute">Georgia Institute of Technology</div>
     <div>Atlanta, GA</div>
     <div>Masters in Computer Science with Specialization in Computing Systems</div>
-    <div>Anticipated Graduation 2021</div>
+    <div>Currently on Hold</div>
     <div>Honors: Dean’s List</div>
     <div className="Institute">Rensselaer Polytechnic Institute</div>
     <div>Troy, NY</div>
