@@ -25,15 +25,12 @@ const StyledForkMe = styled.div`
 
 export default function Home() {
   return (
-    // <Head>
-    //     <title>Resume</title>
-    // </Head> 
     <StyledContainer id='test'>
       <Hero />
       <br />
       {data.map((job) => (
         <ExperienceBlock {...job}>
-          {job.children.map((entry) => <Entry key={JSON.stringify(entry)}>{entry}</Entry>)}
+          {job.bulletPoints.map((bulletPoint) => <Entry>{bulletPoint}</Entry>)}
         </ExperienceBlock>
       ))}
       <br />

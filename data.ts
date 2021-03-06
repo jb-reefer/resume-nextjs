@@ -2,13 +2,30 @@ import { IExperienceBlock } from "./components/ExperienceBlock";
 
 const data: IExperienceBlock[] = [
 {
+  company: "Capsule",
+  website: "https://capsule.com",
+  city: "New York, NY",
+  role: "Engineering Manager",
+  from: "April 2019",
+  to: "Present",
+  bulletPoints: [
+    "Lead the team responsible for the Capsule website, as well as the iOS and Android apps",
+    "Led 2 teams totalling 13 direct reports, but in order to pivot to help grow the new Test Eng team, currently lead a team of 6, called Retention",
+    "Managed the TypeScript migration of all user-facing Capsule IPs",
+    "Built the CI/CD and Test pipeline in Jenkins using Cypress",
+    "Built and architected 3 generations of deployment and scaling systems",
+    "Led the effort to build the Capsule order status/courier tracking system",
+    "Work closely with upper management and talent acquisition to grow the team"
+  ]
+},
+{
   company: "x.ai",
   website: "https://x.ai",
   city: "New York, NY",
   role: "Senior Software Engineer II",
   from: "August 2018",
-  to: "Present",
-  children: [
+  to: "March 2019",
+  bulletPoints: [
     "Build an agentive system that schedules meetings using AI/ML over email and a web UI",
     "Migrate existing services to Typescript-based microservices",
     "Write React email templates and added ability for clients to take action directly from emails instead of requiring natural-language responses, cutting down on spend and chatter",
@@ -23,7 +40,7 @@ const data: IExperienceBlock[] = [
   role: "UI/UX Technical Lead",
   from: "August 2017",
   to: "August 2018",
-  children: [
+  bulletPoints: [
     "Engineered a chat application for customer service via AI, in React/Redux",
     "Managed projects and priorities using SCRUM for a team of 5 front-end developers",
     "Reduced build time from 7 minutes to 12 seconds by rebuilding build process with Webpack and Babel",
@@ -35,30 +52,14 @@ const data: IExperienceBlock[] = [
   ],
 },
 {
-  company: "Rethink Autism",
-  website: "https://www.rethinkfirst.com",
-  role: "Full Stack Engineer",
-  city: "New York, NY",
-  from: "March 2017",
-  to: "June 2017",
-  children: [
-    "Completely rebuilt the public facing pages to use Angular components, RESTful endpoints to retrieve and update data, and generally move towards a more modern architecture",
-    "Guided the existing team through a tooling upgrade: new SCM strategy, new IDE version and tooling, and began process of implementing a CI/CD pipeline",
-    "Daily use of WebAPI, MVC.NET, SQL Server, AngularJS, and HighCharts",
-    "Implemented full site search with autocomplete, by writing a site crawler and integrating with Algolia",
-    "Major UI and readability changes to graphs in dashboards and user facing reporting",
-    "Frequently refactored legacy code to follow separation of concerns, remove obsolete libraries, reduce NIH syndrome, etc.",
-    "Built first team components with Entity Framework, and began migrating site to dotnet core",
-  ],
-},
-{
   company: "Apprenda LLC",
   website: "https://apprenda.com",
   from: "September 2015",
   to: "February 2017",
   city: "New York, NY",
   role: "Software Engineer",
-  children: [
+  bulletPoints: [
+    "Apprenda built a competitor to Kubernetes, before k8s existed, and the team went on to make up much of the CNCF and Heptio engineering teams",
     "Led a project to perform in-place, zero-downtime upgrades of the Apprenda platform, collaborating with nearly a dozen engineers in addition to dedicated QA, Product, and Documentation personnel",
     "Led a project to create a central hub for logs/environmental instrumentation of test server networks using the ELK stack and Docker/docker-compose",
     "Utilized Vagrant, Packer, and Chef to spin up user-defined multi-node environments for testing our Platform-as-a-Service directly on developer machines, shortening a 24 hour build-test cycle to 20 minutes",
@@ -74,7 +75,7 @@ const data: IExperienceBlock[] = [
   to: "September 2015",
   city: "New York, NY",
   role: "Full Stack Engineer",
-  children: [
+  bulletPoints: [
     "Worked as a full stack engineer on a tool that let financial professionals easily create realtime web dashboards from Excel spreadsheets",
     "Architected design to allow for reading from any Workbook source such as Google Docs, Apple Numbers, OpenOffice (Factory took a Provider, Provider implemented Interface of reading methods)",
     "Extended DotNetHighCharts API (a HighCharts definition creation library in C#) to produce interactive, data-driven maps (through HighMaps) in JavaScript",
