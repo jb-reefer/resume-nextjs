@@ -1,0 +1,21 @@
+.Header {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  width: 100%;
+  /* font-style: italic; */
+}
+
+.Role {
+  font-weight: 900;
+}
+
+@media (max-width: 450px) {
+  .Subheader {
+    font-size: 13pt;
+  }
+
+  .Role {
+    font-style: normal;
+  }
+}
