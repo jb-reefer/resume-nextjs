@@ -1,9 +1,7 @@
-import React from "react";
 import styled from "styled-components";
 
 export const Entries = (props: { children: any }) => (
-  // <ul className="Entries"> // TODO: this CSS appears unused
-  <ul className="Entries">
+  <ul>
     {props.children}
   </ul>
 );

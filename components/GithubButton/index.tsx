@@ -1,6 +1,7 @@
-import * as React from "react";
-
-// TODO: Fix this
 export const GithubButton = (props: { link: string, children?: string }) => (
-  <label>{props.children}<a href={props.link}><img height="24" src="/GitHub-Mark-64px.png" /></a></label>
+  <label>{props.children}
+    <a href={props.link}>
+      <img height="24" src="/GitHub-Mark-64px.png" />
+    </a>
+  </label>
 );
