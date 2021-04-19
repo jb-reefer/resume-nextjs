@@ -88,6 +88,21 @@ const data: IExperienceBlock[] = [
     "Used JMeter to stress test, analyze, and report on web page performance under arbitrary loads to ensure Nielsen Ratings could provide an acceptable user experience with their existing hardware configuration with 2,000+ concurrent TM1 users",
     "Reverse engineered the method flow of TM1Web, to spoof authentication, manipulate data, request specific pages based on user input, and log out, while analyzing performance of each step",
   ],
+},
+{
+  company: 'Raytheon Technologies',
+  city: 'Windsor Locks, CT',
+  role: 'Supply Chain Analyst/Co-op',
+  from: 'January 2012',
+  to: 'September 2012',
+  website: 'https://www.rtx.com',
+  bulletPoints: [
+    'Managed purchasing and logistics for a procurement vertical',
+    'Performed analytics and reporting on operational statistics using SQL queries + visualization tools',
+    'Maintained supplier relationships and identified new supplier spend opportunities'
+  ]
+
+
 }];
 
 export default data;
