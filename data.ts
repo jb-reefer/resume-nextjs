@@ -101,8 +101,6 @@ const data: IExperienceBlock[] = [
     'Performed analytics and reporting on operational statistics using SQL queries + visualization tools',
     'Maintained supplier relationships and identified new supplier spend opportunities'
   ]
-
-
 }];
 
 export default data;
