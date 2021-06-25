@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "lint": "npx prettier --write ."
   },
   "dependencies": {
     "next": "10.0.5",
@@ -18,6 +19,17 @@
     "@types/react": "^17.0.2",
     "@types/styled-components": "^5.1.7",
     "babel-plugin-styled-components": "^1.12.0",
+    "husky": "^6.0.0",
+    "lint-staged": "^10.5.4",
+    "prettier": "2.2.1",
     "typescript": "^4.2.3"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown"
   }
 }
