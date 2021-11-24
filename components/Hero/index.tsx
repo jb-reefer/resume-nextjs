@@ -11,8 +11,8 @@ const StyledHero = styled.address`
     margin: 0;
   }
 
-  .Contacts > * {
-    padding: 1rem;
+  .Contacts {
+    margin-top: 0.5rem;
   }
 `;
 
@@ -23,9 +23,11 @@ export const Hero = (props: any) => (
     </h1>
     <div>New York, NY 10128</div>
     <div>(573) 308-2658</div>
+    <a href="mailto:jb@jbreefer.nyc?subject=Let's be friends!">
+      jb@jbreefer.nyc
+    </a>
     <div className="Contacts">
       <GithubButton link="https://github.com/jb-reefer" />
-      <a href="mailto:jb@jbreefer.nyc?subject=Let's be friends!">Email</a>
     </div>
   </StyledHero>
 );
