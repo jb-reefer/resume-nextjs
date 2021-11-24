@@ -25,9 +25,7 @@ export const Hero = (props: any) => (
     <div>(573) 308-2658</div>
     <div className="Contacts">
       <GithubButton link="https://github.com/jb-reefer" />
-      <a href="mailto:james.reefer@gmail.com?subject=Let's be friends!">
-        Email
-      </a>
+      <a href="mailto:jb@jbreefer.nyc?subject=Let's be friends!">Email</a>
     </div>
   </StyledHero>
 );
