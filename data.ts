@@ -3,13 +3,27 @@ import { IExperienceBlock } from "./components/ExperienceBlock";
 const data: IExperienceBlock[] = [
   {
     company: "Capsule",
+    website: "https://aws.amazon.com/athena/",
+    city: "New York, NY",
+    role: "Engineering Manager",
+    from: "May 2022",
+    to: "Present",
+    bulletPoints: [
+      "Lead the team responsible for deploying, monitoring, and testing AWS Athena. Athena is a serverless database project capable of reading and combining diverse datasources, removing the need for ETL pipelines.",
+      "Lead a diverse team of 6, who work with a wide array of technologies and languages - from CDK in TypeScript to Trino in Java",
+      "Led the rollout, deployment and cutover to Athena V3 for all customers",
+      "Work closely with upper management and talent acquisition to grow the team, with three new hires in the first 6 months",
+    ],
+  },
+  {
+    company: "Capsule",
     website: "https://capsule.com",
     city: "New York, NY",
     role: "Engineering Manager",
     from: "April 2019",
-    to: "Present",
+    to: "May 2022",
     bulletPoints: [
-      "Lead the team responsible for the Capsule website, as well as the iOS and Android apps",
+      "Led the team responsible for the Capsule website, as well as the iOS and Android apps",
       "Led 2 teams totalling 13 direct reports, but in order to pivot to help grow the new Test Eng team, currently lead a team of 6 direct reports, called Retention",
       "Managed the TypeScript migration of all user-facing Capsule IPs",
       "Built the CI/CD and Test pipeline in Jenkins using Cypress",

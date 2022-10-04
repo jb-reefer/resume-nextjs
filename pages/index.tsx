@@ -28,7 +28,7 @@ export default function Home() {
       <Hero />
       <br />
       {data.map((job) => (
-        <ExperienceBlock {...job} />
+        <ExperienceBlock key={job.website} {...job} />
       ))}
       <br />
       <Education />

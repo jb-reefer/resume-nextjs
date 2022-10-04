@@ -2,15 +2,13 @@ import Head from "next/head";
 
 import "../styles/globals.css";
 
-function MyApp({ Component, pageProps }) {
-  return (
-    <>
-      <Head>
-        <title>JB Reefer's Resume</title>
-      </Head>
-      <Component {...pageProps} />
-    </>
-  );
-}
+export const ResumeApp = (props: { Component: any; pageProps: any[] }) => (
+  <>
+    <Head>
+      <title>JB Reefer's Resume</title>
+    </Head>
+    <props.Component {...props.pageProps} />
+  </>
+);
 
-export default MyApp;
+export default ResumeApp;
