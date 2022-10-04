@@ -2,7 +2,7 @@ import { IExperienceBlock } from "./components/ExperienceBlock";
 
 const data: IExperienceBlock[] = [
   {
-    company: "Capsule",
+    company: "AWS Athena",
     website: "https://aws.amazon.com/athena/",
     city: "New York, NY",
     role: "Engineering Manager",
