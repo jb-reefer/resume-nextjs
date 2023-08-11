@@ -2,18 +2,21 @@ import { IExperienceBlock } from "./components/ExperienceBlock";
 
 const data: IExperienceBlock[] = [
   {
-    company: "AWS Athena",
+    company: "Amazon",
     website: "https://aws.amazon.com/athena/",
     city: "New York, NY",
-    role: "Engineering Manager",
+    role: "Director of Engineering",
     from: "May 2022",
     to: "Present",
     bulletPoints: [
-      "Lead the team responsible for deploying, monitoring, and testing AWS Athena. Athena is a serverless database project capable of reading and combining diverse datasources, removing the need for ETL pipelines.",
-      "Lead a diverse team of 6, who work with a wide array of technologies and languages - from CDK in TypeScript to Trino in Java",
-      "Led the rollout, deployment and cutover to Athena V3 for all customers",
+      "Lead the team responsible for deploying, monitoring, and testing Audible Payment systems. These systems handle all payment types and regions worldwide",
+      "Lead a diverse team of 10, who work with a wide array of technologies and languages - from CDK in TypeScript to in-house Java SOA frameworks",
+      "Led the rollout, deployment and maintenance for Apple Pay Billing and Google Play Billing across all markets worldwide",
+      "Hit 100% of quarterly delivery commitments",
       "Work closely with upper management and talent acquisition to grow the team, with three new hires in the first 6 months",
+      "Worked through a rocky period in Amazon history, managing layoffs and performance issues while keeping team retention and morale the highest in the org (survey results)",
     ],
+
   },
   {
     company: "Capsule",
