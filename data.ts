@@ -5,7 +5,7 @@ const data: IExperienceBlock[] = [
     company: "Amazon",
     website: "https://amazon.com/",
     city: "New York, NY",
-    role: "Director of Engineering",
+    role: "Software Development Manager",
     from: "May 2022",
     to: "Present",
     bulletPoints: [
