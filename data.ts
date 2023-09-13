@@ -22,7 +22,7 @@ const data: IExperienceBlock[] = [
     company: "Capsule",
     website: "https://capsule.com",
     city: "New York, NY",
-    role: "Engineering Manager",
+    role: "Software Engineering Manager",
     from: "April 2019",
     to: "May 2022",
     bulletPoints: [
@@ -37,25 +37,10 @@ const data: IExperienceBlock[] = [
     ],
   },
   {
-    company: "x.ai",
-    website: "https://x.ai",
-    city: "New York, NY",
-    role: "Senior Software Engineer II",
-    from: "August 2018",
-    to: "March 2019",
-    bulletPoints: [
-      "Built an agentive system that schedules meetings using AI/ML over email and a web UI",
-      "Migrated existing services to Typescript-based microservices",
-      "Wrote React email templates and added ability for clients to take action directly from emails instead of requiring natural-language responses, cutting down on spend and chatter",
-      "Moved from a git-stored dependency system to a modern, npm ci and private npm repo based paradigm",
-      "Worked on all areas of the system such as writing web experiences, build and test APIs, modifying deployment systems and architecting new systems",
-    ],
-  },
-  {
     company: "IPSoft",
     website: "https://www.ipsoft.com",
     city: "New York, NY",
-    role: "UI/UX Technical Lead",
+    role: "Technical Lead",
     from: "August 2017",
     to: "August 2018",
     bulletPoints: [
