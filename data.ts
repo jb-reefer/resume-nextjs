@@ -26,7 +26,7 @@ const data: IExperienceBlock[] = [
     from: "April 2019",
     to: "May 2022",
     bulletPoints: [
-      "Led the team responsible for the Capsule website, as well as the iOS and Android apps",
+      "Led a team of 13 SDEs responsible for the Capsule website, as well as the iOS and Android apps",
       "Team of 5 when I joined, hired >20 people, successively split into new teams and transferred to new-hire managers (creating the Test Engineering and Acquisitions teams)",
       "Managed the TypeScript migration of all user-facing Capsule IPs",
       "Built the CI/CD and Test pipeline in Jenkins using Cypress",
