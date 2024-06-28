@@ -9,12 +9,12 @@ const data: IExperienceBlock[] = [
     from: "May 2022",
     to: "Present",
     bulletPoints: [
-      "Lead the team responsible for deploying, monitoring, and testing Audible Payment systems. These systems handle all payment types and regions worldwide",
+      "Lead the team responsible for deploying, monitoring, and testing Audible Payment systems. These systems handle all Audible payment transactions globally",
       "Lead a diverse team of 10, who work with a wide array of technologies and languages - from CDK in TypeScript to in-house Java SOA frameworks",
-      "Led the rollout, deployment and maintenance for Apple Pay Billing and Google Play Billing across all markets worldwide",
-      "Hit 100% of quarterly delivery commitments",
+      "Led the rollout, deployment and maintenance for Apple Pay Billing and Google Play Billing across all markets worldwide (including in uniquely regulated markets like Japan and India)",
+      "Hit 100% of quarterly delivery commitments, every quarter to date",
       "Work closely with upper management and talent acquisition to grow the team, with three new hires in the first 6 months",
-      "Worked through a rocky period in Amazon history, managing layoffs and performance issues while keeping team retention and morale the highest in the org (survey results)",
+      "100% voluntary team retention and team morale the highest in the org (internal survey data), during a period of layoffs and organizational change",
     ],
 
   },
