@@ -9,7 +9,7 @@ const data: IExperienceBlock[] = [
     from: "May 2022",
     to: "Present",
     bulletPoints: [
-      "Lead the team responsible for deploying, monitoring, and testing Audible Payment systems. These systems handle all Audible payment transactions globally",
+      "Lead the team responsible for deploying, monitoring, and testing Audible Payment systems",
       "Lead a diverse team of 10, who work with a wide array of technologies and languages - from CDK in TypeScript to in-house Java SOA frameworks",
       "Led the rollout, deployment and maintenance for Apple Pay Billing and Google Play Billing across all markets worldwide (including in uniquely regulated markets like Japan and India)",
       "Hit 100% of quarterly delivery commitments, every quarter to date",
