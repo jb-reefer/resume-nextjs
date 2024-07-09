@@ -1,3 +1,9 @@
+## About
+
+This is a pretty straightforward resume app written in Next. Data is stored in [data.ts](data.ts), it's hosted on https://jbreefer.nyc by Vercel, and it uses Yarn for dependency mgmt. Has a preview and production environment for test and release - see PRs on this repo for examples. 
+
+## Boilerplate and How-To
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
