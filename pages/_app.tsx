@@ -1,5 +1,6 @@
 import Head from "next/head";
 import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 import "../styles/globals.css";
 
@@ -15,6 +16,7 @@ export const ResumeApp = (props: { Component: any; pageProps: any[] }) => (
       <meta property="og:description" content="JB Reefer's Resume" />
     </Head>
     <Analytics />
+    <SpeedInsights />
     <props.Component {...props.pageProps} />
   </>
 );
