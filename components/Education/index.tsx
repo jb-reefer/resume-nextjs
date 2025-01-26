@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
 const EducationStyle = styled.div`
   .Institute {
@@ -20,4 +20,5 @@ export const Education = (props: any) => (
     <div>Bachelor of Science in Business Management, Minor in Information Technology</div>
     <div>December 2012</div>
     <div>Honors: Merit Scholarship; Dean’s List</div>
-  </EducationStyle>);
+  </EducationStyle>
+);

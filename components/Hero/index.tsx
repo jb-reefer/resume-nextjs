@@ -2,18 +2,18 @@ import styled from "styled-components";
 import { GithubButton } from "../GithubButton";
 
 const StyledHero = styled.address`
-display: flex;
-flex-direction: column;
-text-align: center;
-font-style: normal;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-style: normal;
 
-h1 {
-  margin: 0;
-}
+  h1 {
+    margin: 0;
+  }
 
-.Contacts > * {
-  padding: 1rem;
-}
+  .Contacts > * {
+    padding: 1rem;
+  }
 `;
 
 export const Hero = (props: any) => (
