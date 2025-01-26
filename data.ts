@@ -16,7 +16,6 @@ const data: IExperienceBlock[] = [
       "Work closely with upper management and talent acquisition to grow the team, with three new hires in the first 6 months",
       "100% voluntary team retention and the highest team morale in the organization (based on internal survey data), during a period of layoffs and organizational change",
     ],
-
   },
   {
     company: "Capsule",
