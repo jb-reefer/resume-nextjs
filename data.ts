@@ -9,13 +9,13 @@ const data: IExperienceBlock[] = [
     from: "September 2024",
     to: "Present",
     bulletPoints: [
-      "Manage a ~13-person growth engineering team, including 8 direct reports, responsible for Ro’s patient-facing growth platform across acquisition, onboarding, asynchronous clinical intake, treatment selection, pricing, promotions, and experimentation.",
-      "Protected patient safety through ~10x growth in 18 months, avoiding major regressions by operationalizing launch-readiness reviews, UAT, automated acceptance tests, observability, load testing, and rollback planning.",
+      "Manage a ~13-person engineering team, including 8 direct reports, responsible for Ro’s patient-facing growth platform across acquisition, onboarding, asynchronous clinical intake, treatment selection, pricing, promotions, and experimentation.",
+      "Protected patient safety during ~10x growth in 18 months, avoiding major regressions by operationalizing launch-readiness reviews, UAT, automated acceptance tests, observability, load testing, and rollback planning.",
       "Directed delivery of a portfolio-wide roadmap across multiple care categories, including medication launches, pricing and discount experiments, onboarding optimization, retention flows, and treatment-selection improvements.",
-      "Pivoted the team’s scope and operating model from product-feature execution to portfolio-level platform ownership across weight management, sexual health, hair loss, and other care areas.",
-      "Provided hands-on technical leadership on high-risk work, authoring and reviewing targeted PRs and defining a phased pricing-experimentation strategy around automation, source-of-truth centralization, and product self-service.",
-      "Built a stronger senior engineering bench through senior hiring, direct feedback, coaching, and ownership models that moved engineers into technical-lead roles on priority initiatives.",
-    ],
+      "Expanded the team’s scope and operating model from product-feature execution to portfolio-level platform ownership across weight management, sexual health, hair loss, and other care areas.",
+      "Provided hands-on technical leadership on high-risk work, authoring and reviewing targeted PRs and defining a phased pricing-experimentation strategy around automation, pricing source-of-truth centralization, and Product self-service.",
+      "Built a stronger engineering bench through senior hiring, direct feedback, coaching, and ownership models that moved engineers into technical-lead roles on priority initiatives.",
+    ]
   },
   {
     company: "Amazon",
