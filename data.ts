@@ -9,12 +9,12 @@ const data: IExperienceBlock[] = [
     from: "September 2024",
     to: "Present",
     bulletPoints: [
-      "Lead growth engineering across Ro’s consumer healthcare portfolio, owning patient acquisition, onboarding, asynchronous clinical intake, treatment-selection, pricing, and experimentation systems across multiple Lines of Business.",
-      "Scaled high-volume, safety-critical healthcare workflows through ~10x growth in 18 months by strengthening launch readiness, observability, automated testing, load testing, and incident-prevention practices - and in doing so, avoided major patient-safety regressions.", 
-      "Reframed the team charter from feature delivery to durable platform ownership, investing in clinical-intake, treatment-selection, and patient journey services as reusable systems across weight management, sexual health, hair loss, and other care areas.",
-      "Delivered a high-volume growth roadmap spanning medication launches, pricing and discount experimentation, treatment-selection improvements, onboarding optimization, retention flows, and patient journey resilience.",
-      "Defined technical strategy for safer, lower-effort pricing experimentation through phased automation, source of truth centralization, and Product self-service workflows to reduce recurring engineering bottlenecks.",
-      "Raised the talent bar through senior hiring, direct coaching, clearer ownership expectations, and structured opportunities for engineers to operate as technical leads across high-priority initiatives.",
+      "Manage a ~13-person growth engineering team, including 8 direct reports, responsible for Ro’s patient-facing growth platform across acquisition, onboarding, asynchronous clinical intake, treatment selection, pricing, promotions, and experimentation.",
+      "Protected patient safety through ~10x growth in 18 months, avoiding major regressions by operationalizing launch-readiness reviews, UAT, automated acceptance tests, observability, load testing, and rollback planning.",
+      "Directed delivery of a portfolio-wide roadmap across multiple care categories, including medication launches, pricing and discount experiments, onboarding optimization, retention flows, and treatment-selection improvements.",
+      "Pivoted the team’s scope and operating model from product-feature execution to portfolio-level platform ownership across weight management, sexual health, hair loss, and other care areas.",
+      "Provided hands-on technical leadership on high-risk work, authoring and reviewing targeted PRs and defining a phased pricing-experimentation strategy around automation, source-of-truth centralization, and product self-service.",
+      "Built a stronger senior engineering bench through senior hiring, direct feedback, coaching, and ownership models that moved engineers into technical-lead roles on priority initiatives.",
     ],
   },
   {
